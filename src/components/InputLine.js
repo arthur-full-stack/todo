@@ -21,7 +21,7 @@ function InputLine() {
 
     return (
         <div className='input-div'>
-            <input type="text" ref={itemRef} />
+            <input type="text" placeholder='write something' ref={itemRef} />
             <button onClick={addToList}>Add</button>
             <TodoList list={list} setList={setList} />
         </div>
